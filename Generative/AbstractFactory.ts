@@ -19,10 +19,10 @@ interface carFactory {
 class Subaru implements carFactory {
       public buildCoupe(): coupe {
             return new SubaruCoupe();
-      };
+      }
       public buildSedan(): sedan {
             return new SubaruSedan();
-      };
+      }
 }
 
 class SubaruCoupe implements coupe {
@@ -56,10 +56,10 @@ class SubaruSedan implements coupe {
 class Mercedes implements carFactory {
       public buildCoupe(): coupe {
             return new MercedesCoupe();
-      };
+      }
       public buildSedan(): sedan {
             return new MercedesSedan();
-      };
+      }
 }
 
 class MercedesCoupe implements coupe {
